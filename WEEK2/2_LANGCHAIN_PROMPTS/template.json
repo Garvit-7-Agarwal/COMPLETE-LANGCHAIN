@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "cricketer_name",
+        "length_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        write the information about a \"{cricketer_name}\" with the following specifications:\n        Title:\"{style_input}\"\n        length:\"{length_input}\"\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
