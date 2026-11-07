@@ -24,5 +24,6 @@ chain1 = RunnableSequence(prompt1,model,parser,prompt2,model,parser)
 chain2 = prompt1|model|parser|prompt2|model|parser
 
 # borh chain1 and chain2 are doing samework 
+
 print("Chain 1 : ",chain1.invoke({'topic':'cricket'}))
 print("Chain 2 : ",chain2.invoke({'topic':'cricket'}))
